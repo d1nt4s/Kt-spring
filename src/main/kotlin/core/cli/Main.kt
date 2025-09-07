@@ -13,4 +13,6 @@ fun main() {
 
     println("All users: ${userService.findAll()}")
     println("Find Alice: ${userService.findById(alice.id)}")
+
+    coroutinesDemo()
 }
