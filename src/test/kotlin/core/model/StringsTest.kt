@@ -11,9 +11,12 @@ class StringsTest {
         "   Hello World   , hello-world",
         "Bob!, bob",
         "'', ''",
-        "'---ABC---', abc"
+        "'---ABC---', abc",
     )
-    fun `slugify cases`(input: String, expected: String) {
+    fun `slugify cases`(
+        input: String,
+        expected: String,
+    ) {
         assertEquals(expected, input.slugify())
     }
 
