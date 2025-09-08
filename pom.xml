@@ -146,5 +146,18 @@
       <scope>test</scope>
     </dependency>
 
+    <!-- Jackson Kotlin (версию согласуем со Spring Boot 3.3.2 = Jackson 2.17.x)
+    <dependency>
+      <groupId>com.fasterxml.jackson.module</groupId>
+      <artifactId>jackson-module-kotlin</artifactId>
+      <version>2.17.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-reflect</artifactId>
+      <version>${kotlin.version}</version>
+    </dependency> -->
+
   </dependencies>
 </project>

@@ -14,7 +14,7 @@ class UserController(
 
     @PostMapping
     fun create(@RequestBody body: CreateUserRequest): User =
-        userService.createUser(bode.name)
+        userService.createUser(body.name)
 
     @GetMapping
     fun list(): List<User> = userService.findAll()
